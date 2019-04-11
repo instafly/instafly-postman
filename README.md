@@ -8,7 +8,7 @@ Visit https://rapidapi.com/barkal/api/instafly-pro for more information and to t
 
 http://www.instafly.me
 
-#Sample API response 
+# Sample API response 
 ```
 {
     "landmarkName": "Saint Joseph's Oratory",
