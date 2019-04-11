@@ -1,0 +1,84 @@
+{
+	"info": {
+		"name": "Instafly Visual Travel Search - www.instafly.me",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search flights by image url",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "SIGN_UP_TO_GET_YOUR_RAPIDAPI_KEY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"imageUrl\": \"ONLINE_IMAGE_URL\", \"currentLatitude\": 0, \"currentLongitude\": 0 }"
+				},
+				"url": {
+					"raw": "https://instafly-pro.p.rapidapi.com/v1/imageurltosearch",
+					"protocol": "https",
+					"host": [
+						"instafly-pro",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"imageurltosearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search flights by uploading an image",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-RapidAPI-Key",
+						"value": "SIGN_UP_TO_GET_YOUR_RAPIDAPI_KEY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"base64Image\": \"BASE64_ENCODED_IMAGE\"}"
+				},
+				"url": {
+					"raw": "https://instafly-pro.p.rapidapi.com/v1/imageuploadtosearch",
+					"protocol": "https",
+					"host": [
+						"instafly-pro",
+						"p",
+						"rapidapi",
+						"com"
+					],
+					"path": [
+						"v1",
+						"imageuploadtosearch"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
