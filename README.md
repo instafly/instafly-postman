@@ -12,6 +12,12 @@ http://www.instafly.me
 ```
 {
     "landmarkName": "Saint Joseph's Oratory",
+        "Avenue Anatole France",
+        "Paris",
+        "Arrondissement de Paris",
+        "Île-de-France",
+        "France",
+        "FR"
     "lmLatitude": "45.515248",
     "lmLongitude": "-73.643164",
     "confidence": 47.1192,
